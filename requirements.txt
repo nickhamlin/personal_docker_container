@@ -1,0 +1,24 @@
+requests
+pandas == 0.25.2
+python-lambda-local
+boto3
+bs4
+matplotlib
+gensim
+pytest
+pymysql
+seaborn
+tldextract
+textblob
+sklearn
+gender_guesser
+spacy
+pyLDAvis
+plotly
+networkx
+gspread-pandas
+airtable-python-wrapper
+lifelines
+jupyter_contrib_nbextensions
+autopep8
+yapf
