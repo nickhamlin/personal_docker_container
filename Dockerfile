@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 # NOTE: Temporarily disabled 
 # RUN conda install -c conda-forge cartopy
 
-COPY setup /opt/conda/lib/python3.7/site-packages/jupyter_contrib_nbextensions/nbextensions/setup
+COPY setup /opt/conda/share/jupyter/nbextensions/setup
 RUN jupyter contrib nbextensions install --user
 RUN jupyter nbextension enable setup/main
 RUN jupyter nbextension enable code_prettify/code_prettify
